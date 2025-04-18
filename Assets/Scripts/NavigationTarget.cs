@@ -5,12 +5,10 @@ using UnityEngine.AI;
 
 public class NavigationTarget : MonoBehaviour
 {
-    [SerializeField]
-    private Camera topDownCamera;
-    [SerializeField]
-    private GameObject navTargetObject;
+    [SerializeField] private Camera topDownCamera;
+    [SerializeField] private GameObject navTargetObject;
 
-    private NavMeshPath path; 
+    private NavMeshPath path;
     private LineRenderer line;
 
     private bool lineToggle = false;
